@@ -1,0 +1,39 @@
+main {
+    min-height: 90vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #02031c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Footer section */
+
+div#app footer {
+    background-color: #02031C;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+div#app footer div:last-child p {
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+    text-align: center;
+}

@@ -1,0 +1,165 @@
+.hide {
+    display: none !important;
+}
+
+span.open_side_navigation {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* side navigation */
+
+#side_navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#side_navigation li {
+    list-style: none;
+}
+
+#side_navigation a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#side_navigation a:hover {
+    color: #f1f1f1;
+}
+
+#side_navigation .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* home page */
+
+div.home>div>h2 {
+    background-color: #b3b2b2;
+    padding: 5px;
+}
+
+
+/* Carousel Items Modal */
+
+span.openCarouselModal {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    cursor: pointer;
+    display: flex;
+}
+
+span.openCarouselModal:hover {
+    color: #2fa360;
+}
+
+div.carouselItemsModal {
+    position: absolute;
+    width: 100%;
+    background-color: #dcdada;
+    height: 350px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+div.carouselItemsModal div.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.carouselItemsModal div.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.carouselItemsModal span.closeCarouselModal {
+    cursor: pointer;
+}
+
+div.carouselItemsModal div.content ul li {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    margin: 5px;
+    position: relative;
+}
+
+div.carouselItemsModal div.content ul li:hover span {
+    display: flex !important;
+}
+
+div.carouselItemsModal div.content ul li span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+table span.tableInfo {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+table span.tableInfo:hover>div.tableInfoContent {
+    display: block;
+}
+
+table div.tableInfoContent {
+    position: absolute;
+    background-color: #3490dc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 225px;
+    display: none;
+}
+
+
+/* Roles */
+
+ol li.role {
+    background-color: #000000;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+ol li.role a {
+    padding: 1px 14px;
+    color: #ffffff !important;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+ol li.role.active {
+    background-color: #cccccc
+}
+
+ol li.role.active a {
+    color: #000000 !important
+}
